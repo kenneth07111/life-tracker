@@ -50,3 +50,28 @@ cursor:pointer;
   flex:1;
   background-color:#ffffff;
 }
+
+.add-task-bar{
+display:flex;
+gap:8px;
+padding:12px;
+border-bottom:1px solid #e0e0e0;
+}
+
+.add-task-bar input {
+
+  flex:1;
+  padding:14px;
+  border:1px solid #ccc;
+  border-radius:6px;
+  font-size:14px;
+}
+
+.add-task-bar button{
+padding:8px 12 px;
+background-color:#4a90d9;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
